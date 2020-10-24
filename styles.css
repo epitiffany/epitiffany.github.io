@@ -1,0 +1,104 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  background: linear-gradient(18deg, white, #a1d4cF) fixed;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  margin: 40px 0px 30px 40px;
+  font-family: 'Press Start 2P', cursive; font-size: 50px;
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.button{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 20px; border-style: solid;
+  font-size: 30px;
+  border-color: black; background-color: white;
+  font-family: 'Itim', cursive;
+}
+
+button:hover{
+  background-color: #63ad9a; border-color: #63ad9a;
+  color: white;
+}
+
+.main_container{
+  display: flex;
+  margin: 30px;
+}
+
+.welcome_container, .about_us_container{
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Itim', cursive; font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* SideBar */
+
+.language_category{
+  background-color: lightGray;
+  margin-bottom: 0;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 600px; height: 100vh;
+  font-family: 'Itim', cursive; font-size: 25px; text-align: center;
+}
+
+.option{
+  font-family: 'Itim', cursive; text-align: center;
+  width: 100%;
+  font-size: 20px;
+  border-color: white;   border-style: solid;
+  background-color: white;
+}
+
+.option:hover{
+  border-color: #63ad9a;
+}
+
+.separate{
+  display: flex;
+}
+
+/*Content of Webpage */
+
+.tbd{
+  font-family: 'Itim', cursive;
+  margin-bottom: 0;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.intro{
+  margin: 20px 40px 20px 40px;
+  border: 1px dashed black; border-radius: 20px;
+  padding: 30px;
+  font-size: 30px; font-family: 'Itim', cursive;
+}
