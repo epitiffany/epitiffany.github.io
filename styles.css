@@ -98,7 +98,14 @@ button:hover{
 
 .intro{
   margin: 20px 40px 20px 40px;
-  border: 1px dashed black; border-radius: 20px;
+  border: 3px dotted black; border-radius: 20px;
   padding: 30px;
-  font-size: 30px; font-family: 'Itim', cursive;
+  font-size: 30px; font-family: 'Itim', cursive; text-align: center;
+}
+
+.segments{
+  border: 1px solid black;
+  font-family: 'Itim', cursive;
+  padding: 20px;
+  margin: 30px;
 }
