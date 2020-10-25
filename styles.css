@@ -51,11 +51,12 @@ button:hover{
   font-family: 'Itim', cursive; font-size: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  width: 50%;
 }
 
 /* SideBar */
 
-.language_category{
+.category{
   background-color: lightGray;
   margin-bottom: 0;
 }
@@ -101,9 +102,9 @@ button:hover{
 }
 
 .intro{
-  margin: 20px 40px 20px 40px;
+  margin: 20px 40px 20px 15%;
   border: 3px dotted black; border-radius: 20px;
-  padding: 30px;
+  padding: 30px;  width: 70%;
   font-size: 30px; font-family: 'Itim', cursive; text-align: center;
 }
 
@@ -118,4 +119,8 @@ button:hover{
 .right{
   margin-left: 50%;
   background-image: url('assets/gray-background.jpg');
+}
+
+ul{
+   list-style-type: none;
 }

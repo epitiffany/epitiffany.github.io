@@ -4,7 +4,7 @@ function c_var(){
 }
 
 function c_br(){
-  alert('edit c_br function in script.js');
+  alert('Branches check whether a condition is true or not.\nDepending on that, some lines of code may be run while others are not.');
 }
 
 function c_arr(){
